@@ -2,9 +2,34 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title') | Portafolio Juan</title>
+   <!-- SEO Básico -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Juan Carlos Mejías | Analista Funcional & Desarrollador Web</title>
+
+<meta name="description" content="Portafolio profesional de Juan Carlos Mejías: Analista Funcional, documentación UML, SQL, Laravel, APIs REST, BPMN, QA Testing y más.">
+
+<meta name="keywords" content="analista funcional, portafolio, UML, SQL, Laravel, documentación, APIs REST, BPMN, QA, sistemas, TI, proyectos">
+
+<meta name="author" content="Juan Carlos Mejías">
+
+<!-- SEO Social Media (Open Graph) -->
+<meta property="og:title" content="Juan Carlos Mejías | Analista Funcional & Desarrollador Web">
+<meta property="og:description" content="Portafolio profesional con proyectos, tecnologías y experiencia real.">
+<meta property="og:image" content="https://TU-DOMINIO.com/images/logoJC.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://TU-DOMINIO.com">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Juan Carlos Mejías | Portafolio Profesional">
+<meta name="twitter:description" content="Analista Funcional + Desarrollo web. Proyectos, documentación y herramientas.">
+<meta name="twitter:image" content="https://TU-DOMINIO.com/images/logoJC.png">
+
+<!-- Favicon -->
+<link rel="icon" href="/images/logoJC.png" type="image/png">
+
 
     <!-- BOOTSTRAP 5 (CDN) -->
     <link
