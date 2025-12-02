@@ -43,7 +43,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
     <!-- TU CSS (solo UNO y al final) -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}?v=4">
+     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+
+    <!--<link rel="stylesheet" href="{{ asset('css/app.css') }}?v=4"> -->
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
 
 </head>
