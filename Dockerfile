@@ -32,3 +32,10 @@ EXPOSE 8000
 
 # 8️⃣ Comando para iniciar Laravel
 CMD php artisan serve --host=0.0.0.0 --port=$PORT
+
+# limpiar build antiguo
+RUN rm -rf public/build
+
+# instalar Node y construir assets
+RUN npm install
+RUN npm run build

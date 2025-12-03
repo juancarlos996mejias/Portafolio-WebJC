@@ -25,7 +25,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Juan Carlos Mejías | Portafolio Profesional">
 <meta name="twitter:description" content="Analista Funcional + Desarrollo web. Proyectos, documentación y herramientas.">
-<meta name="twitter:image" content="https://TU-DOMINIO.com/images/logoJC.png">
+<meta name="twitter:image" content="https://TU-DOMINIO.com/images/logojcm.png">
 
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 <!-- Favicon -->
@@ -78,7 +78,7 @@
             href="/"
             style="font-size: 1.25rem; letter-spacing: .5px;">
 
-            <img src=<img src="{{ asset('images/logoJC.png') }}"
+            <img src=<img src="{{ asset('images/logojcm.png') }}"
                 alt="Logo Juan"
                 style="
                     height: 52px; 
@@ -182,7 +182,7 @@
 
             <!-- Columna izquierda: Logo -->
             <div class="footer-col">
-                <img src="{{ asset('images/logoJC.png') }}" alt="Logo" class="footer-logo">
+                <img src="{{ asset('images/logojcm.png') }}" alt="Logo" class="footer-logo">
 
 
                 <div class="footer-social">
