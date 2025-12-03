@@ -1,4 +1,10 @@
-/vendor
-/node_modules
-/.git
 .env
+.git
+node_modules
+vendor
+npm-debug.log
+Dockerfile
+.dockerignore
+README.md
+/tests
+
