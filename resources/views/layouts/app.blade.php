@@ -27,9 +27,11 @@
 <meta name="twitter:description" content="Analista Funcional + Desarrollo web. Proyectos, documentación y herramientas.">
 <meta name="twitter:image" content="https://TU-DOMINIO.com/images/logoJC.png">
 
+@vite(['resources/css/app.css', 'resources/js/app.js'])
 <!-- Favicon -->
-<link rel="icon" href="/images/logoJC.png" type="image/png">
 
+ <link rel="icon" href="{{ asset('images/logoJC.png') }}">
+ <meta property="og:image" content="{{ asset('images/logoJC.png') }}">
 
     <!-- BOOTSTRAP 5 (CDN) -->
     <link
@@ -47,7 +49,17 @@
 
 
     <!--<link rel="stylesheet" href="{{ asset('css/app.css') }}?v=4"> -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}">
+
+
+
+
+
+
+
+
+
+
 
 </head>
 
