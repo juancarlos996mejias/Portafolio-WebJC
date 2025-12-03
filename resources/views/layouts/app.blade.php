@@ -78,7 +78,8 @@
             href="/"
             style="font-size: 1.25rem; letter-spacing: .5px;">
 
-            <img src=<img src="{{ asset('images/logojcm.png') }}"
+             
+            <img src="{{ asset('images/logojcm.png') }}" 
                 alt="Logo Juan"
                 style="
                     height: 52px; 
