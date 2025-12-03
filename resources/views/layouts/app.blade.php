@@ -78,7 +78,7 @@
             href="/"
             style="font-size: 1.25rem; letter-spacing: .5px;">
 
-            <img src="/images/logoJC.png"
+            <img src=<img src="{{ asset('images/logoJC.png') }}"
                 alt="Logo Juan"
                 style="
                     height: 52px; 
@@ -182,7 +182,8 @@
 
             <!-- Columna izquierda: Logo -->
             <div class="footer-col">
-                <img src="/images/logo_JC.png" alt="Logo" class="footer-logo">
+                <img src="{{ asset('images/logoJC.png') }}" alt="Logo" class="footer-logo">
+
 
                 <div class="footer-social">
                     <a href="https://www.linkedin.com/in/juan-carlos-mejias" target="_blank"><i class="bi bi-linkedin"></i></a>

@@ -5,8 +5,9 @@ export default defineConfig({
     plugins: [
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
-            buildDirectory: 'build', // 👈 esto forza /public/build
             refresh: true,
         }),
     ],
+    base: '/build/', // <- Muy importante si Render sirve desde un subdirectorio
 });
+
