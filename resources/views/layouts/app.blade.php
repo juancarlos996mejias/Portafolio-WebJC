@@ -25,13 +25,13 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Juan Carlos Mejías | Portafolio Profesional">
 <meta name="twitter:description" content="Analista Funcional + Desarrollo web. Proyectos, documentación y herramientas.">
-<meta name="twitter:image" content="https://TU-DOMINIO.com/images/logojcm.png">
+<meta name="twitter:image" content="https://TU-DOMINIO.com/images/Logojcm.png">
 
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 <!-- Favicon -->
 
- <link rel="icon" href="{{ asset('images/logoJC.png') }}">
- <meta property="og:image" content="{{ asset('images/logoJC.png') }}">
+ <link rel="icon" href="{{ asset('images/Logojcm.png') }}">
+ <meta property="og:image" content="{{ asset('images/Logojcm.png') }}">
 
     <!-- BOOTSTRAP 5 (CDN) -->
     <link
@@ -51,16 +51,6 @@
     <!--<link rel="stylesheet" href="{{ asset('css/app.css') }}?v=4"> -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon.png') }}">
 
-
-
-
-
-
-
-
-
-
-
 </head>
 
 <body>
@@ -79,7 +69,7 @@
             style="font-size: 1.25rem; letter-spacing: .5px;">
 
              
-            <img src="{{ asset('images/logojcm.png') }}" 
+            <img src="{{ asset('images/Logojcm.png') }}" 
                 alt="Logo Juan"
                 style="
                     height: 52px; 
@@ -183,7 +173,7 @@
 
             <!-- Columna izquierda: Logo -->
             <div class="footer-col">
-                <img src="{{ asset('images/logojcm.png') }}" alt="Logo" class="footer-logo">
+                <img src="{{ asset('images/Logojcm.png') }}" alt="Logo" class="footer-logo">
 
 
                 <div class="footer-social">
