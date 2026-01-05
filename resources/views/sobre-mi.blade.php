@@ -10,12 +10,19 @@
 
     <div class="row align-items-center">
 
+        
         <!-- FOTO -->
-        <div class="col-md-4 text-center mb-4">
-            <img src="/images/logojc.png"
-                alt="Foto Juan"
-                class="about-photo">
-        </div>
+ <div class="col-md-4 text-center mb-4">
+    <div class="about-photo-wrapper">
+        <img src="{{ asset('images/fotojcm.png') }}"
+             alt="foto Juan"
+             class="about-photo">
+    </div>
+</div>
+
+
+ 
+
 
         <!-- TEXTO -->
         <div class="col-md-8">

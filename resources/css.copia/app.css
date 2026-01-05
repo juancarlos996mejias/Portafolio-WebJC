@@ -1,0 +1,228 @@
+/* ----------------------------------------------------
+   GLOBAL
+---------------------------------------------------- */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Animación general */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.7s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+/* ----------------------------------------------------
+   NAVBAR PERSONALIZADO
+---------------------------------------------------- */
+
+/* Fondo con blur tipo glass */
+.navbar-custom {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Sombra sutil */
+.glass {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Logo circular */
+/* =========================
+   NAVBAR LOGO
+========================= */
+
+/* ===== NAVBAR FIX ===== */
+
+.navbar {
+    min-height: 64px;           /* altura real del navbar */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 64px;               /* fuerza el alto */
+}
+
+.navbar-brand img.navbar-logo {
+    height: 42px;               /* tamaño REAL del logo */
+    width: auto;
+    max-height: 42px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Hover suave */
+.navbar-brand img.navbar-logo:hover {
+    transform: scale(1.05);
+}
+
+/* Enlaces navbar */
+.nav-link-custom {
+    font-weight: 500;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.nav-link-custom:hover {
+    color: #0d6efd;
+}
+
+
+/* ----------------------------------------------------
+   FOOTER
+---------------------------------------------------- */
+
+.custom-footer {
+    background: #111;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 60px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 230px;
+}
+
+.footer-logo img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Navegación del footer */
+.footer-nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav li {
+    margin: 8px 0;
+}
+
+.footer-nav a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+}
+
+/* Redes sociales */
+.footer-social a {
+    color: #bbb;
+    font-size: 20px;
+    margin-right: 12px;
+    transition: 0.2s ease;
+}
+
+.footer-social a:hover {
+    color: #fff;
+}
+
+/* Línea divisoria */
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background: #333;
+    margin: 35px 0;
+}
+
+.footer-contact p {
+    margin: 6px 0;
+    color: #ccc;
+}
+
+/* ----------------------------------------------------
+   FORMULARIO DE CONTACTO – VALIDACIONES 
+---------------------------------------------------- */
+
+/* Contenedor del input */
+.input-wrapper {
+    position: relative;
+}
+
+/* Mensajes debajo del input */
+.validation-msg {
+    font-size: 0.85rem;
+    margin-top: 3px;
+    display: none;
+}
+
+/* Estado inválido */
+.invalid, 
+.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.invalid + .validation-msg,
+.is-invalid + .validation-msg {
+    display: block;
+    color: #dc3545;
+}
+
+/* Estado válido */
+.valid, 
+.is-valid {
+    border-color: #198754 !important;
+}
+
+.valid + .validation-msg,
+.is-valid + .validation-msg {
+    display: block;
+    color: #198754;
+}
+
+/* Alertas */
+.error {
+    color: #dc3545;
+}
+
+.success {
+    color: #198754;
+}
+
+
+.about-photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;              /* CLAVE */
+    margin: 0 auto;
+    border: 4px solid rgba(255,255,255,0.25);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.about-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;             /* CLAVE */
+    object-position: 50% 30%;       /* o ajustar */
+    display: block;
+}
+
+.about-photo {
+    background: red !important;
+    border: 10px solid yellow !important;
+}
+
+
+
