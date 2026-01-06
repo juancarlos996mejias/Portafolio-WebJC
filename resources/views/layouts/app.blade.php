@@ -109,6 +109,17 @@
                         </a>
                     </li>
 
+                    <li class="nav-item ms-lg-3">
+                        <a href="{{ asset('cv/JuanCarlosMejias-CV.pdf') }}"
+                            class="btn btn-warning btn-sm fw-semibold d-flex align-items-center gap-2"
+                            target="_blank"
+                            download>
+                            <i class="bi bi-file-earmark-arrow-down fs-5"></i>
+                            Download CV
+                        </a>
+                    </li>
+
+
                 </ul>
 
                 <!-- ICONOS DERECHA -->
@@ -120,6 +131,15 @@
                         class="text-white fs-5">
                         <i class="bi bi-linkedin"></i>
                     </a>
+
+                    <!-- GITHUB -->
+                    <a href="https://github.com/juancarlos996mejias"
+                        target="_blank"
+                        class="text-white fs-5 github-icon"
+                        aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+
 
                     <!-- MAIL -->
                     <a href="mailto:juancarlosmejias.it@outlook.com"
@@ -160,6 +180,12 @@
                 <img src="{{ asset('images/Logojcm.png') }}" alt="Logo Juan" class="footer-logo">
                 <div class="footer-social">
                     <a href="https://www.linkedin.com/in/juan-carlos-mejias" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/juancarlos996mejias"
+                        target="_blank"
+                        aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+
                     <a href="mailto:juancarlosmejias.it@outlook.com?subject=Contacto%20Laboral&body=Hola%20Juan%2C%20te%20escribo%20por%20tu%20perfil."><i class="bi bi-envelope-fill"></i></a>
 
                     <a href="https://wa.me/5491164369138" target="_blank" class="contact-item">

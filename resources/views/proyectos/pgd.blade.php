@@ -147,7 +147,7 @@
         </a>
 
         <div class="gallery-placeholder mt-3 p-5 bg-light text-center border rounded">
-            <img src="/images/pgd.webp" alt="Visor IDECABA" class="img-fluid rounded shadow">
+            <img src="/images/pgd_3.jpg" alt="Visor IDECABA" class="img-fluid rounded shadow">
         </div>
     </div>
 
