@@ -110,13 +110,14 @@
                     </li>
 
                     <li class="nav-item ms-lg-3">
-                        <a href="{{ asset('cv/JuanCarlosMejias-cv.pdf') }}"
-                            class="btn btn-warning btn-sm fw-semibold d-flex align-items-center gap-2"
+                        <a href="{{ asset('cv/jc-analista-funcional-it.pdf') }}"
+                            class="btn btn-primary ms-2"
                             target="_blank"
-                            download>
-                            <i class="bi bi-file-earmark-arrow-down fs-5"></i>
-                            Download CV
+                            rel="noopener">
+                            <i class="bi bi-file-earmark-person-fill"></i> Download CV
                         </a>
+
+
                     </li>
 
 
@@ -153,6 +154,8 @@
                         class="text-white fs-5">
                         <i class="bi bi-whatsapp"></i>
                     </a>
+
+                    
 
                 </div>
 
@@ -191,8 +194,15 @@
                     <a href="https://wa.me/5491164369138" target="_blank" class="contact-item">
 
                         <i class="bi bi-whatsapp"></i>
-                    </a>
+</a>
+
                 </div>
+                <a href="{{ asset('cv/jc-analista-funcional-it.pdf') }}"
+   target="_blank"
+   class="footer-cv-link">
+   <i class="bi bi-file-earmark-person-fill me-1"></i>
+   Download CV
+</a>
             </div>
 
             <!-- Columna del medio: Navegación -->
