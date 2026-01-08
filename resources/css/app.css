@@ -1191,6 +1191,20 @@ footer span {
     border-radius: 12px;
 }
 
+.footer-cv-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #bbb;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.footer-cv-link:hover {
+    color: #fff;
+}
+
+
 
 
 
