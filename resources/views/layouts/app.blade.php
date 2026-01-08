@@ -110,7 +110,7 @@
                     </li>
 
                     <li class="nav-item ms-lg-3">
-                        <a href="{{ asset('cv/JuanCarlosMejias-CV.pdf') }}"
+                        <a href="{{ asset('cv/JuanCarlosMejias-cv.pdf') }}"
                             class="btn btn-warning btn-sm fw-semibold d-flex align-items-center gap-2"
                             target="_blank"
                             download>
