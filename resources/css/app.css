@@ -1194,7 +1194,7 @@ footer span {
 .footer-cv-link {
     display: inline-block;
     margin-top: 12px;
-    color: #bbb;
+    color: "#EEEEEE";
     font-size: 0.95rem;
     text-decoration: none;
     transition: 0.2s ease;
